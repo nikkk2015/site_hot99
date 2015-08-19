@@ -1,0 +1,70 @@
+h1{
+  font-family: 'Marck Script', cursive;
+  font-size: 350%;
+  color: #ec4551;
+  margin-top: 100px;
+}
+
+body{
+  background: #fafafa;
+}
+
+.descr-header{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.header-proj{
+  margin-top: 20%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+}
+
+.desc-proj{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 150%;
+}
+
+.container-red{
+  width: 100%;
+  height: 430px;
+  background-color: #d83945;
+  color: #f6eaeb;
+  border: 15px solid #d83945;
+  box-shadow: inset 0 0 0 1px #b42a35;
+  padding: 10px;
+}
+
+.container-white{
+  width: 100%;
+  background-color: #ffffff;
+  color: #888484;
+  padding: 10px;
+}
+
+.container-white > .desc-proj{
+  text-align: justify;
+  padding: 30px;
+}
+
+.auto-height{
+  height: auto;
+}
+
+.small-margin{
+  margin-top: 30px;
+}
+
+.main-block{
+  width: 100%;
+  height: 430px;
+  overflow: hidden;
+}
+.gal:hover {
+  outline: 1px solid white;
+  outline-offset: -10px;
+}

@@ -1,0 +1,88 @@
+doctype
+head
+  block title
+    title Бани, камины, барбекю, ковка
+
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel="stylesheet", href="css/bootstrap.min.css")
+  link(rel="stylesheet", href="css/style2.css")
+  link(rel="stylesheet", href="css/media.css")
+  link(href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic,cyrillic-ext', rel='stylesheet', type='text/css')
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  script(src='//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+  script(src='//oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  <![endif]-->
+  link(rel="stylesheet", href="js/jquery.fancybox.css?v=2.1.5")
+  link(rel="stylesheet", href="js/helpers/jquery.fancybox-buttons.css?")
+  link(rel="stylesheet", href="js/helpers/jquery.fancybox-thumbs.css")
+
+body
+  .container-fluid.wrapper
+    .horMenu.opac: ul
+      li: a(href="index.html") ГЛАВНАЯ
+      li: a(href="fireplace.html") КАМИНЫ
+      li: a(href="bath.html") БАНИ
+      li: p(class="logo-3") ЭраТепла
+      li: a(href="chimney.html") ДЫМОХОДЫ
+      li: a(data-scroll,href="#between-advantages-footer") КОНТАКТЫ
+      li: a(href="about.html") О НАС
+      .telephone
+          .glyphicon.glyphicon-earphone.telephone-right
+          | +7 495 745 74 75
+    div(class="block name-sec")
+      p(class="logo-2") ЭраТепла
+    div(class="block name3-sec")
+      button(type="button", data-toggle="dropdown", class="btn btn-default dropdown-toggle-1")
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      .dropdown-menu.second-fall-menu: ul
+        li: a(href="index.html") ГЛАВНАЯ
+        li: a(href="fireplace.html") КАМИНЫ
+        li: a(href="bath.html") БАНИ
+        li: a(href="chimney.html") ДЫМОХОДЫ
+        li: a(data-scroll,href="#between-advantages-footer") КОНТАКТЫ
+        li: a(href="about.html") О НАС
+    .telephone2
+      .glyphicon.glyphicon-earphone.telephone-right
+      | +7 495 745 74 75
+
+    block content
+    include footer
+
+  script(src="//code.jquery.com/jquery-2.1.4.min.js")
+  script(src='js/jquery.bxslider.min.js')
+  script(src='js/jquery.mousewheel.min.js')
+  script(src='js/all.js') // без него контакты не вызывались как блок
+  script(src='js/jquery.min.js')
+  script(src='js/smooth-scroll.min.js')
+  script(src='js/bootstrap.js')
+  script(src="js/jquery.fancybox.pack.js")
+  script(src="js/helpers/jquery.fancybox-buttons.js")
+  script(src="js/helpers/jquery.fancybox-media.js")
+  script(src="js/helpers/jquery.fancybox-thumbs.js")
+  script(type='text/javascript').
+
+  block callscripts
+    script.
+      $(document).ready(function () {
+        smoothScroll.init();
+        $('.wrapper').css("height", window.innerHeight);
+        $(".galsl").fancybox({
+          openEffect: 'none',
+          closeEffect: 'none',
+          helpers: {
+            title: {type: 'over'}
+          }, // helpers
+          beforeShow: function () {
+            var a = this.href.replace(/\/[a-z]*\/[a-z]*\//g, '');
+            this.title = a;
+          }
+        });
+      });
+

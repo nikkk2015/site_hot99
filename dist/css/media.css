@@ -1,0 +1,236 @@
+/*==========  Mobile First Method  ==========*/
+@media (max-width: 767px) {/* мобильный */
+    body{
+        min-width: 320px;
+    }
+    .navbar-collapse ul li{
+        background-color: #FFFFFF;
+        width: 100%;
+    }
+    .screen-md{
+        display: none;
+    }
+    .descr{
+        padding: 20px;
+    }
+    .row-foot-menu-md{
+        display: none;
+    }
+    .row-foot-menu-smmd{
+        display: none;
+    }
+    .row-xs-tel-mail{
+        padding-bottom: 20px;
+    }
+    .img-bottom-email{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .stlb-foot-img{
+        text-align: left;
+    }
+    .fotoPrall{
+        margin-top: 10px;
+        margin-bottom: -85px;
+    }
+    .fotoPrall a{
+        padding-left: 11%;
+    }
+    .menu-topline-max{
+        display: none;
+    }
+    .name, .name3{
+        display: inline-block;
+    }
+    .name3{
+        position: absolute;
+        float: left;
+        top: 11px;
+        left: 25px;
+    }
+    .telephone2{
+        display: none;
+    }
+    .horMenu ul li{
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+    .container-fluid-2{
+        height: 40px;
+    }
+    .name{
+        position: relative;
+        right: -5%;
+    }
+    .opac > ul > li, .telephone{
+        display:none;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {/* средний */
+    .screen-mobile{
+        display: none;
+    }
+    .descr{
+        padding: 5px;
+    }
+    .textL:after{
+        margin-top: 0;
+    }
+    .textR:after{
+        margin-top: 0;
+    }
+    .row-foot-menu-sm{
+        display: none;
+    }
+    .row-foot-menu-md{
+        display: none;
+    }
+    .img-bottom-tel{
+        margin-left: 0;
+    }
+    .img-bottom-email{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .stlb-foot-img{
+      text-align: left;
+    }
+    .fotoPrall a{
+        padding-left: 11%;
+    }
+    .fotoPrall{
+        margin-top: 10px;
+    }
+    .menu-topline-max{
+        display: none;
+    }
+    .name, .name3{
+        display: inline-block;
+    }
+    /*.name3{*/
+        /*position: relative;*/
+        /*float: left;*/
+        /*top: 20px;*/
+        /*left: 50px;*/
+    /*}*/
+    .telephone2{
+        position: absolute;
+        right: 5%;
+        top: 20px;
+    }
+    .opac > ul > li, .telephone{
+        display:none;
+    }
+
+}
+@media (min-width: 992px) {/* большой */
+    .screen-mobile{
+        display: none;
+    }
+    .row-foot-menu-sm{
+        display: none;
+    }
+    .row-foot-menu-smmd{
+        display: none;
+    }
+    .fotoPrall{
+        margin-top: 188px;
+    }
+    .menu-topline-max li{
+        display: none;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1400px){
+    /*.navbar-nav-2 li{*/
+        /*display: none;*/
+    /*}*/
+    .menu-topline-max{
+        display: none;
+    }
+    .container-fluid-2 {
+        margin-bottom: 10px;
+    }
+    .name, .name3{
+        display: inline-block;
+    }
+    .telephone2{
+        position: absolute;
+        right: 5%;
+        top: 20px;
+    }
+    #between-advantages-footer{
+        height: 67px;
+    }
+    .opac > ul > li, .telephone{
+        display:none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .logo-2{
+        display: none;
+    }
+    .name3{
+        display: none;
+    }
+    .but-collapse{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+    .telephone2{
+        display: none;
+    }
+    .container-fluid-2 {
+        margin-bottom: -15px;
+    }
+    #between-advantages-footer{
+        height: 74px;
+    }
+    .dropdown-toggle-1{
+        display: none;
+    }
+    .name-sec{
+        position: absolute;
+        z-index: 200;
+    }
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    /*body{*/
+        /*min-width: 320px;*/
+    /*}*/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    /*.logo{*/
+        /*font-size: 30px;*/
+    /*}*/
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

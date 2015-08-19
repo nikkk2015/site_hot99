@@ -1,0 +1,715 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bl",
+				"block-gears-control"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font",
+				"font_size"
+			],
+			[
+				"light",
+				"lights"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"el",
+				"el	Else"
+			],
+			[
+				"get",
+				"getBBox"
+			],
+			[
+				"cir",
+				"circle"
+			],
+			[
+				"pa",
+				"paper"
+			],
+			[
+				"on",
+				"onGasPush"
+			],
+			[
+				"gear",
+				"gearTypes"
+			],
+			[
+				"cha",
+				"changeGear"
+			],
+			[
+				"tic",
+				"tickTemp"
+			],
+			[
+				"ti",
+				"timerTemp"
+			],
+			[
+				"max",
+				"maxangle"
+			],
+			[
+				"cur",
+				"curTransform"
+			],
+			[
+				"gas",
+				"gasoline"
+			],
+			[
+				"mi",
+				"mileage"
+			],
+			[
+				"chan",
+				"changeMileAge"
+			],
+			[
+				"clear",
+				"clearTimeout"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"pus",
+				"pushDefault"
+			],
+			[
+				"an",
+				"angle"
+			],
+			[
+				"sr",
+				"start"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"o",
+				"off"
+			],
+			[
+				"f",
+				"forof	Object Comprehension"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"t",
+				"ter	Ternary If"
+			],
+			[
+				"c",
+				"coffee"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"line",
+				"linear"
+			],
+			[
+				"ico",
+				"icons"
+			],
+			[
+				"in",
+				"Interface"
+			],
+			[
+				"rel",
+				"reload"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ger",
+				"getChar"
+			],
+			[
+				"opa",
+				"opacityElems"
+			],
+			[
+				"str",
+				"strokeWidth"
+			],
+			[
+				"l",
+				"lDiv"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"le",
+				"leftPanel"
+			],
+			[
+				"lD",
+				"lDiv"
+			],
+			[
+				"_",
+				"_icon"
+			],
+			[
+				"iconK",
+				"iconKey"
+			],
+			[
+				"ic",
+				"iconsPath"
+			],
+			[
+				"r",
+				"rmin"
+			],
+			[
+				"S",
+				"Snap"
+			],
+			[
+				"i",
+				"iconKey"
+			],
+			[
+				"draw",
+				"_drawKm"
+			],
+			[
+				"sp",
+				"speed"
+			],
+			[
+				"spe",
+				"speedElem"
+			],
+			[
+				"m",
+				"mileage"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"b",
+				"bbox"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"R",
+				"RightPanel"
+			],
+			[
+				"ri",
+				"RightPanel"
+			],
+			[
+				"st",
+				"stroke"
+			],
+			[
+				"Ma",
+				"Math"
+			],
+			[
+				"main",
+				"MainPanel"
+			],
+			[
+				"cC",
+				"cCl"
+			],
+			[
+				"dr",
+				"drawLeft"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"g",
+				"gui"
+			],
+			[
+				"M",
+				"Math"
+			],
+			[
+				"x",
+				"xOy"
+			],
+			[
+				"s",
+				"strokeWidth"
+			],
+			[
+				"dra",
+				"drawRedZone"
+			],
+			[
+				"P",
+				"PI"
+			],
+			[
+				"d",
+				"drawNums"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"A",
+				"Angle"
+			],
+			[
+				"ci",
+				"cirCent"
+			],
+			[
+				"inne",
+				"innerWidth"
+			],
+			[
+				"end",
+				"endAngle"
+			],
+			[
+				"star",
+				"startAngle"
+			],
+			[
+				"des",
+				"describeArc"
+			],
+			[
+				"sta",
+				"startAngle"
+			],
+			[
+				"ma",
+				"mazdaPanel"
+			],
+			[
+				"gam",
+				"game"
+			],
+			[
+				"game",
+				"gameSize"
+			],
+			[
+				"ga",
+				"gameSize"
+			],
+			[
+				"ca",
+				"canvasId"
+			],
+			[
+				"bst",
+				"bst-col:4	bst-col-4"
+			],
+			[
+				"col-",
+				"col-xs-12"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ar",
+				"aria-hidden"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"to",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"coffe",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"sum",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"sub",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/tmp/fz3temp-1/home.tpl",
+		"/tmp/fz3temp-1/hasChanged.php",
+		"/tmp/fz3temp-1/category.tpl",
+		"/tmp/fz3temp-1/header.php",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/main.php",
+		"/tmp/fz3temp-1/view.php",
+		"/tmp/fz3temp-1/mailto.php",
+		"/tmp/fz3temp-1/product.tpl",
+		"/tmp/fz3temp-1/footer.tpl",
+		"/tmp/fz3temp-1/header.tpl",
+		"/tmp/fz3temp-1/footer.php",
+		"/tmp/fz3temp-1/parseSMS.php",
+		"/home/vlad360/projects/mazda/coffee/main.coffee",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/vlad360/projects/mazda/jade/layout.jade",
+		"/home/vlad360/projects/mazda/stylus/main.styl",
+		"/home/vlad360/projects/mazda/jade/index.jade",
+		"/home/vlad360/Загрузки/ecodom98.txt",
+		"/tmp/fz3temp-1/main.css",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/vlad360/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/CoffeeCompile.sublime-settings",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/vlad360/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/vlad360/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/vlad360/projects/mazda/dist/icons/icons.svg",
+		"/home/vlad360/projects/mazda/dist/icons/1429925304_fuel.svg",
+		"/home/vlad360/Загрузки/1429925304_fuel.svg",
+		"/home/vlad360/projects/mazda/gulpfile.coffee",
+		"/home/vlad360/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/vlad360/.config/sublime-text-3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/home/vlad360/.config/sublime-text-3/Packages/CoffeeCompile/Keymaps/Default (Linux).sublime-keymap",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/ColorPicker.sublime-settings",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/vlad360/projects/mazda/test.html",
+		"/home/vlad360/projects/game/jade/index.jade",
+		"/home/vlad360/projects/game/jade/layout.jade",
+		"/home/vlad360/projects/game/gulpfile.coffee",
+		"/home/vlad360/.config/sublime-text-3/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+		"/home/vlad360/projects/game/dist/js/all.js",
+		"/home/vlad360/projects/game/coffee/main.coffee",
+		"/home/vlad360/projects/game/coffee/extra.coffee",
+		"/home/vlad360/projects/game/jade/footer.jade",
+		"/home/vlad360/projects/infinitdesing/jade/styles.jade",
+		"/home/vlad360/projects/infinitdesing/jade/menu.jade",
+		"/home/vlad360/projects/infinitdesing/jade/project-inside.jade",
+		"/home/vlad360/projects/infinitdesing/stylus/main.styl",
+		"/home/vlad360/.config/sublime-text-3/Packages/User/Sublimall.sublime-settings",
+		"/home/vlad360/projects/infinitdesing/jade/index.jade",
+		"/home/vlad360/projects/infinitdesing/jade/layout.jade",
+		"/home/vlad360/projects/infinitdesing/gulpfile.coffee",
+		"/home/vlad360/projects/infinitdesing/infinitdesign.ru.sublime-project",
+		"/home/vlad360/projects/infinitdesing/jade/mixins.jade"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"strpos(",
+			", $v",
+			"elseif",
+			"strripos",
+			"@elements[1].objs[1]",
+			"@elements[1].objs[5]",
+			"@elements[1].objs[4]",
+			"@elements[1].objs[3]",
+			"vis: on,",
+			"toggleGearControl",
+			"Down",
+			"tickChangeSpeed",
+			"timerChangeSpeed",
+			"500",
+			"1000",
+			"1500",
+			"Up",
+			"onGasPushD",
+			"select",
+			"\"\",\n",
+			"lDiv",
+			"ls",
+			"Interface",
+			"bloc",
+			"blo",
+			"hide",
+			"textModesSize",
+			"cY",
+			"cX",
+			";",
+			":",
+			"  font-family: 'digital-7italic';\n  src: url('7fonts.ru_digital-7italic-webfont.eot');\n  src: url('7fonts.ru_digital-7italic-webfont.eot?#iefix') format('embedded-opentype'),\n       url('7fonts.ru_digital-7italic-webfont.woff2') format('woff2'),\n       url('7fonts.ru_digital-7italic-webfont.woff') format('woff'),\n       url('7fonts.ru_digital-7italic-webfont.ttf') format('truetype'),\n       url('7fonts.ru_digital-7italic-webfont.svg#digital-7italic') format('svg');\n  font-weight: normal;\n  font-style: normal;",
+			"r/5",
+			"3*Math.PI/4",
+			"cirCent.y",
+			"ctrl+shift+c",
+			"Color",
+			"color",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"strpos($v, ",
+			"",
+			"strpos",
+			"@cC.y",
+			"@cC.x",
+			"",
+			"cY",
+			"button"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gulpfile.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"la",
+				"jade/layout.jade"
+			],
+			[
+				"i",
+				"jade/index.jade"
+			],
+			[
+				"lay",
+				"jade/layout.jade"
+			],
+			[
+				"main.",
+				"stylus/main.styl"
+			],
+			[
+				"ma",
+				"coffee/main.coffee"
+			],
+			[
+				"",
+				"infinitdesign.ru.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/game/coffee/mazda.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 288.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 453.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

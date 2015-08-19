@@ -1,0 +1,248 @@
+doctype
+head
+  block title
+    title Бани, камины, барбекю, ковка
+
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel="stylesheet", href="css/bootstrap.min.css")
+  link(rel="stylesheet", href="css/style2.css")
+  link(rel="stylesheet", href="css/media.css")
+  link(rel="stylesheet", href="css/jquery.bxslider.css")
+  link(href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic,cyrillic-ext', rel='stylesheet', type='text/css')
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  script(src='//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+  script(src='//oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  <![endif]-->
+  link(rel="stylesheet", href="js/jquery.fancybox.css?v=2.1.5")
+  link(rel="stylesheet", href="js/helpers/jquery.fancybox-buttons.css?")
+  link(rel="stylesheet", href="js/helpers/jquery.fancybox-thumbs.css")
+body
+    .horMenu
+        .container-fluid-2
+            .menu-topline-max: ul
+                li: a(href="index.html") ГЛАВНАЯ
+                li: a(href="fireplace.html") КАМИНЫ
+                li: a(href="bath.html") БАНИ
+                li: p(class="logo-3") ЭраТепла
+                li: a(href="chimney.html") ДЫМОХОДЫ
+                li: a(data-scroll,href="#between-advantages-footer") КОНТАКТЫ
+                li: a(href="about.html") О НАС
+                .telephone
+                    .glyphicon.glyphicon-earphone.telephone-right
+                    | +7 495 745 74 75
+            div(class="block name")
+                p(class="logo-2") ЭраТепла
+            div(class="block name3")
+              button(type="button", data-toggle="dropdown", class="btn btn-default dropdown-toggle")
+                  span.sr-only Toggle navigation
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                .dropdown-menu.second-fall-menu: ul
+                    li: a(href="index.html") ГЛАВНАЯ
+                    li: a(href="fireplace.html") КАМИНЫ
+                    li: a(href="bath.html") БАНИ
+                    li: a(href="chimney.html") ДЫМОХОДЫ
+                    li: a(data-scroll,href="#between-advantages-footer") КОНТАКТЫ
+                    li: a(href="about.html") О НАС
+            .telephone2
+                .glyphicon.glyphicon-earphone.telephone-right
+                | +7 495 745 74 75
+
+
+  .container-fluid.wrapper
+    .header
+      div(class="block name1")
+        p(class="logo") ЭраТепла
+      nav.navbar
+        .container-fluid
+          div(class="block name2")
+            .navbar-header
+              button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#button_navbar_collapse", aria-expanded="false")
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              .collapse.navbar-collapse#button_navbar_collapse
+                ul.nav.navbar-nav
+                  li.active: a(href="index.html") Главная
+                  li: a(href="fireplace.html") Камины
+                  li: a(href="bath.html") Бани
+                  li: a(href="chimney.html") Дымоходы
+                  li: a(data-scroll, href="#bottomis") Контакты
+                  li: a(href="about.html") О нас
+  .content
+    .container
+      .arrow_boxL
+        .row.row-img-text
+          .col-md-6.col-img.screen-md.col-sm-6
+            .fotoL: img(src="images/fireplace.jpg")
+          .col-md-6.screen-md.col-sm-6
+            .textR.descr
+                h3 КАМИНЫ
+                | Камины, выполненные по индивидуальному проекту являются не
+                | только хорошим дополнением интерьера, но также служат отличным
+                | источником тепла, у которого так приятно по вечерам собраться всей
+                | семьей.<br>
+                a.more(href="fireplace.html") ПОДРОБНЕЕ
+          .col-xs-12.screen-mobile
+            .fotoL: img(src="images/fireplace.jpg")
+          .col-xs-12.screen-mobile
+            .textR.descr
+              h3 КАМИНЫ
+              | Камины, выполненные по индивидуальному проекту являются не
+              | только хорошим дополнением интерьера, но также служат отличным
+              | источником тепла, у которого так приятно по вечерам собраться всей
+              | семьей.<br>
+              a.more(href="fireplace.html") ПОДРОБНЕЕ
+      .arrow_boxL
+        .row.row-img-text
+          .col-md-6.screen-md.col-sm-6
+            .textL.descr
+              h3 ДЫМОХОДЫ
+              | Основным назначением дымохода является вывод дыма, пепла и сажи. Также дымоход должен обеспечивать необходимую тягу в печи. Именно поэтому к монтажу дымохода нужно подходить с особым вниманием.<br>
+              a.more(href="chimney.html") ПОДРОБНЕЕ
+          .col-md-6.col-img.screen-md.col-sm-6
+            .fotoR: img(src="images/chimney1.jpg")
+          .col-xs-12.screen-mobile
+            .fotoR: img(src="images/chimney1.jpg")
+          .col-xs-12.screen-mobile
+            .textL.descr
+              h3 ДЫМОХОДЫ
+              | Основным назначением дымохода является вывод дыма, пепла и сажи. Также дымоход должен обеспечивать необходимую тягу в печи. Именно поэтому к монтажу дымохода нужно подходить с особым вниманием.<br>
+              a.more(href="chimney.html") ПОДРОБНЕЕ
+      .arrow_boxL
+        .row.row-img-text
+          .col-md-6.col-img.screen-md.col-sm-6
+            .fotoL: img(src="images/bath.jpg")
+          .col-md-6.screen-md.col-sm-6
+            .textR.descr
+              h3 БАНИ
+              | Мыльня, мыленка, мовница – или же просто баня. Так полюбившаяся нам еще с незапамятных времен. И именно это наша основная целькоторую мы преследуем при монтаже- сохранение традиций содновременным комфортом и современным дизайном.<br>
+              a.more(href="bath.html") ПОДРОБНЕЕ
+          .col-xs-12.screen-mobile
+            .fotoL: img(src="images/bath.jpg")
+          .col-xs-12.screen-mobile
+            .textR.descr
+              h3 БАНИ
+              | Мыльня, мыленка, мовница – или же просто баня. Так полюбившаяся нам еще с незапамятных времен. И именно это наша основная целькоторую мы преследуем при монтаже- сохранение традиций содновременным комфортом и современным дизайном.<br>
+              a.more(href="bath.html") ПОДРОБНЕЕ
+      .arrow_boxL
+        .row.row-img-text
+          .col-md-6.screen-md.col-sm-6
+            .textL.descr
+              h3 БАРБЕКЮ
+              | Барбекю или мангал будет отличным решением не только для время препровождения дружного коллектива на приготовленных на открытом огне. <br>
+              a.more(href="barbeku.html") ПОДРОБНЕЕ
+          .col-md-6.col-img.screen-md.col-sm-6
+            .fotoR: img(src="images/4.jpg")
+          .col-xs-12.screen-mobile
+            .fotoR: img(src="images/4.jpg")
+          .col-xs-12.screen-mobile
+            .textL.descr
+              h3 БАРБЕКЮ
+              | Барбекю или мангал будет отличным решением не только для время препровождения дружного коллектива на приготовленных на открытом огне. <br>
+              a.more(href="barbeku.html") ПОДРОБНЕЕ
+    //- .cc.clearfix
+    //-   .fotoL: img(src="images/kovka1.jpg")
+    //-   .arrow_boxL: .descr
+    //-     h3 КОВКА
+    //-     | При ручной ковке на металл воздействует инструмент
+    //-     | или молот, что позволяет воздействовать на него
+    //-     | по всем направлениям, что в свою очередь дает нам
+    //-     | выполнять заказы любого уровня сложности. <br>
+    //-     a.more(href="kovka.html") ПОДРОБНЕЕ
+    //- .cc.clearfix
+    //-   .fotoR: img(src="images/service.jpg")
+    //-   .arrow_boxR: .descr
+    //-     h3 СЕРВИС
+    //-     a.more(href="service.html") ПОДРОБНЕЕ
+    //- .cc.clearfix
+    //-   .fotoL: img(src="images/service.jpg")
+    //-   .arrow_boxL: .descr
+    //-     h3 МАГАЗИН
+    //-     a.more(href="service.html") ПОДРОБНЕЕ
+  .projects
+    h3.text-center ОТЗЫВЫ КЛИЕНТОВ
+    .bigF.row
+      .col-md-5
+        ul.bxslider
+          li: a.galsl(href="proj/bani/img46.jpg"): img(src="images/photo6.png")
+          li: a.galsl(href="images/proj-2.png"): img(src="images/proj-2.png")
+          li: a.galsl(href="images/proj-4.png"): img(src="images/proj-4.png")
+      .col-md-7
+        .description
+          .arrow_small.arrow_small_left: img(src="images/small_left.png")
+          .arrow_small.arrow_small_right: img(src="images/small_right.png")
+          h4#name_review ПРОЕКТ БАНИ ЗВЕНИГОРОД
+          p#text-review.
+            Мы осуществляем монтаж каминов любых
+             моделей, независимо от сложности оборудования, габаритов и степени
+             готовности "посадочного места".Мы осуществляем монтаж каминов любых
+             моделей, независимо от сложности оборудования.
+      .container-fluid
+        .fotoPrall
+
+
+
+    .rom.advantages.text-center
+      .col-md-12.partners: h3.text-center НАШИ ПАРТНЕРЫ
+      .container
+        a.col-md-4.container-fluid.partners(href="http://webinfinit.ru/valeria/blinds.html")
+          .col-xs-4
+            img.img-responsive(src="images/blinds-icon.jpg", style="padding-top:10px")
+          .col-xs-8
+            h3.text-left ШТОРЫ
+            p.text-left.
+              Проектирование и пошив штор по индивидуальному проекту
+        a.col-md-4.container-fluid.partners(href="http://webinfinit.ru/valeria/infinit.html")
+          .col-xs-4
+            img.img-responsive(src="images/infinit_logo_blue.png", style="padding-top:55px")
+          .col-xs-8
+            h3.text-left INFINIT
+            p.text-left.
+              Компания Infinit занимается установкой газовых генераторов и
+              бесперебойных источников питания
+        a.col-md-4.container-fluid.partners(href="http://webinfinit.ru/valeria/kovka.html")
+          .col-xs-4
+            img.img-responsive(src="images/kovka-icon.png", style="padding-top:10px")
+          .col-xs-8
+            h3.text-left КОВКА
+            p.text-left.
+              Ковка описание
+
+
+  include footer
+
+  script(src="//code.jquery.com/jquery-2.1.4.min.js")
+  script(src='js/jquery.bxslider.min.js')
+  script(src='js/smooth-scroll.min.js')
+  script(src='js/bootstrap.js')
+  script(src='js/jquery.mousewheel.min.js')
+  script(src="js/jquery.fancybox.pack.js")
+  script(src="js/helpers/jquery.fancybox-buttons.js")
+  script(src="js/helpers/jquery.fancybox-media.js")
+  script(src="js/helpers/jquery.fancybox-thumbs.js")
+  script(src='js/all.js')
+  block callscripts
+
+  script.
+    $(document).ready(function() {
+        smoothScroll.init();
+        $('.wrapper').css("height", window.innerHeight);
+        $(".galsl").fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        helpers : {
+          title : { type : 'over' }
+        }, // helpers
+        beforeShow : function() {
+          var a = this.href.replace(/\/[a-z]*\/[a-z]*\//g, '');
+          this.title = a;
+        }
+      });
+    });
