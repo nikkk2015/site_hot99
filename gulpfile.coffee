@@ -25,6 +25,7 @@ gulp.task 'stylus', ->
     .pipe gulp.dest 'dist/css'
     .pipe do connect.reload
 
+  # test
 gulp.task 'build', ['coffee'], ->
   rjs
     baseUrl: 'js'
