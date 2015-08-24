@@ -7,6 +7,22 @@ html,body {
 .container-fluid-2{
     margin-bottom: 10px;
 }
+.sub-lg-menu{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    font-size: 16px;
+    background: #F6EFE9;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sub-lg-menu > ul > li{
+    display: inline-block;
+    padding: 13px;
+    padding-bottom: 5px;
+}
 .horMenu {
     opacity: 0;
     position: fixed;
@@ -772,9 +788,65 @@ ul.nav.navbar-nav{
     /*left: 36%;*/
     /*margin: -125px 0 0 -125px;*/
 }
-.second-fall-menu{
-    position: absolute;
+.second-fall-menu, .sub-fall-menu{
+    border-radius: 0;
+    border: none;
+    margin-left: 10px;
 }
-
-
+.second-fall-menu > ul > li{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+.col-second-menu{
+    padding-left: 10px;
+}
+.sub-main-menu{
+    background: #F6EFE9;
+}
+.sub-telephone {
+    position: absolute;
+    right: 5%;
+    top: 34px;
+}
+.sub-logo{
+    text-align: center;
+}
+.sub-button > .btn{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.sub-fall-menu ul > li{
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+/*ВПАДИНА НА КНОПКЕ ПРИ НАЖАТИИ*/
+.sub-button > .btn:active {
+    border-radius: 0px;
+    box-shadow: none;
+}
+.sub-lg-menu{
+    position: fixed;
+}
+.sub-main-menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 67px;
+    margin-left: 0;
+}
+#between-advantages-footer {
+    height: 67px;
+}
 

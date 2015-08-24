@@ -1,5 +1,8 @@
 /*==========  Mobile First Method  ==========*/
 @media (max-width: 767px) {/* мобильный */
+    .sub-lg-menu{
+        display: none;
+    }
     body{
         min-width: 320px;
     }
@@ -68,6 +71,9 @@
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {/* средний */
+    .sub-lg-menu{
+        display: none;
+    }
     .screen-mobile{
         display: none;
     }
@@ -140,7 +146,6 @@
     .menu-topline-max li{
         display: none;
     }
-
 }
 @media (min-width: 992px) and (max-width: 1400px){
     /*.navbar-nav-2 li{*/
@@ -160,11 +165,11 @@
         right: 5%;
         top: 20px;
     }
-    #between-advantages-footer{
-        height: 67px;
-    }
     .opac > ul > li, .telephone{
         display:none;
+    }
+    .sub-lg-menu{
+        display: none;
     }
 }
 
@@ -187,15 +192,18 @@
     .container-fluid-2 {
         margin-bottom: -15px;
     }
-    #between-advantages-footer{
-        height: 74px;
-    }
     .dropdown-toggle-1{
         display: none;
     }
     .name-sec{
         position: absolute;
         z-index: 200;
+    }
+    .sub-main-menu{
+        display: none;
+    }
+    #between-advantages-footer {
+        height: 85px;
     }
 
 }

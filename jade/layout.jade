@@ -21,68 +21,67 @@ head
   link(rel="stylesheet", href="js/helpers/jquery.fancybox-thumbs.css")
 
 body
-  .container-fluid.wrapper
-    .horMenu.opac: ul
+  .container-fluid.wrapper-1
+    .sub-lg-menu: ul.sub
       li: a(href="index.html") ГЛАВНАЯ
       li: a(href="fireplace.html") КАМИНЫ
       li: a(href="bath.html") БАНИ
       li: p(class="logo-3") ЭраТепла
       li: a(href="chimney.html") ДЫМОХОДЫ
-      li: a(data-scroll,href="#between-advantages-footer") КОНТАКТЫ
+      li: a(data-scroll,href="#between-advantages-footer ") КОНТАКТЫ
       li: a(href="about.html") О НАС
-      .telephone
+      .sub-telephone
           .glyphicon.glyphicon-earphone.telephone-right
           | +7 495 745 74 75
-    div(class="block name-sec")
-      p(class="logo-2") ЭраТепла
-    div(class="block name3-sec")
-      button(type="button", data-toggle="dropdown", class="btn btn-default dropdown-toggle-1")
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      .dropdown-menu.second-fall-menu: ul
-        li: a(href="index.html") ГЛАВНАЯ
-        li: a(href="fireplace.html") КАМИНЫ
-        li: a(href="bath.html") БАНИ
-        li: a(href="chimney.html") ДЫМОХОДЫ
-        li: a(data-scroll,href="#between-advantages-footer") КОНТАКТЫ
-        li: a(href="about.html") О НАС
-    .telephone2
-      .glyphicon.glyphicon-earphone.telephone-right
-      | +7 495 745 74 75
+    .row.sub-main-menu
+      .col-md-4.col-sm-4.col-xs-4.sub-button
+        button(type="button", data-toggle="dropdown", id="dropdownMenu2", class="btn btn-default dropdown-toggle", aria-expanded="false", aria-haspopup="true")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        .dropdown-menu.sub-fall-menu(aria-labelledby="dropdownMenu2"): ul
+          li: a(href="index.html") ГЛАВНАЯ
+          li: a(href="fireplace.html") КАМИНЫ
+          li: a(href="bath.html") БАНИ
+          li: a(href="chimney.html") ДЫМОХОДЫ
+          li: a(data-scroll,href="#between-advantages-footer ") КОНТАКТЫ
+          li: a(href="about.html") О НАС
+      .col-md-4.col-sm-4.col-xs-4.sub-logo
+        p(class="logo-2") ЭраТепла
+      .col-md-4.col-sm-4.col-xs-4
+        .telephone2
+          .glyphicon.glyphicon-earphone.telephone-right
+          | +7 495 745 74 75
 
     block content
     include footer
+      script(src="//code.jquery.com/jquery-2.1.4.min.js")
+      script(src='js/jquery.bxslider.min.js')
+      script(src='js/smooth-scroll.min.js')
+      script(src='js/bootstrap.js')
+      script(src='js/jquery.mousewheel.min.js')
+      script(src="js/jquery.fancybox.pack.js")
+      script(src="js/helpers/jquery.fancybox-buttons.js")
+      script(src="js/helpers/jquery.fancybox-media.js")
+      script(src="js/helpers/jquery.fancybox-thumbs.js")
+      script(src='js/all.js')
+      block callscripts
 
-  script(src="//code.jquery.com/jquery-2.1.4.min.js")
-  script(src='js/jquery.bxslider.min.js')
-  script(src='js/jquery.mousewheel.min.js')
-  script(src='js/all.js') // без него контакты не вызывались как блок
-  script(src='js/jquery.min.js')
-  script(src='js/smooth-scroll.min.js')
-  script(src='js/bootstrap.js')
-  script(src="js/jquery.fancybox.pack.js")
-  script(src="js/helpers/jquery.fancybox-buttons.js")
-  script(src="js/helpers/jquery.fancybox-media.js")
-  script(src="js/helpers/jquery.fancybox-thumbs.js")
-  script(type='text/javascript').
-
-  block callscripts
-    script.
-      $(document).ready(function () {
-        smoothScroll.init();
-        $('.wrapper').css("height", window.innerHeight);
-        $(".galsl").fancybox({
-          openEffect: 'none',
-          closeEffect: 'none',
-          helpers: {
-            title: {type: 'over'}
-          }, // helpers
-          beforeShow: function () {
-            var a = this.href.replace(/\/[a-z]*\/[a-z]*\//g, '');
-            this.title = a;
-          }
+      script.
+        $(document).ready(function () {
+          smoothScroll.init();
+          $('.wrapper').css("height", window.innerHeight);
+          $(".galsl").fancybox({
+            openEffect: 'none',
+            closeEffect: 'none',
+            helpers: {
+              title: {type: 'over'}
+            }, // helpers
+            beforeShow: function () {
+              var a = this.href.replace(/\/[a-z]*\/[a-z]*\//g, '');
+              this.title = a;
+            }
+          });
         });
-      });
 
