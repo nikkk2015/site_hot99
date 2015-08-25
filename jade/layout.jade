@@ -23,32 +23,30 @@ head
 body
   .container-fluid.wrapper-1
     .sub-lg-menu: ul.sub
-      li: a(href="index.html") ГЛАВНАЯ
       li: a(href="fireplace.html") КАМИНЫ
       li: a(href="bath.html") БАНИ
-      li: p(class="logo-3") ЭраТепла
       li: a(href="chimney.html") ДЫМОХОДЫ
+      li: a.p(href="index.html")(class="logo-3")ЭраТепла
       li: a(data-scroll,href="#between-advantages-footer ") КОНТАКТЫ
       li: a(href="about.html") О НАС
       .sub-telephone
-          .glyphicon.glyphicon-earphone.telephone-right
-          | +7 495 745 74 75
+            .glyphicon.glyphicon-earphone.telephone-right
+            | +7 495 745 74 75
     .row.sub-main-menu
-      .col-md-4.col-sm-4.col-xs-4.sub-button
+      .col-md-4.col-sm-4.col-xs-4.sub-button.sub-logo
         button(type="button", data-toggle="dropdown", id="dropdownMenu2", class="btn btn-default dropdown-toggle", aria-expanded="false", aria-haspopup="true")
           span.sr-only Toggle navigation
           span.icon-bar
           span.icon-bar
           span.icon-bar
         .dropdown-menu.sub-fall-menu(aria-labelledby="dropdownMenu2"): ul
-          li: a(href="index.html") ГЛАВНАЯ
           li: a(href="fireplace.html") КАМИНЫ
           li: a(href="bath.html") БАНИ
           li: a(href="chimney.html") ДЫМОХОДЫ
           li: a(data-scroll,href="#between-advantages-footer ") КОНТАКТЫ
           li: a(href="about.html") О НАС
       .col-md-4.col-sm-4.col-xs-4.sub-logo
-        p(class="logo-2") ЭраТепла
+        a.p(href="index.html")(class="logo-3")ЭраТепла
       .col-md-4.col-sm-4.col-xs-4
         .telephone2
           .glyphicon.glyphicon-earphone.telephone-right

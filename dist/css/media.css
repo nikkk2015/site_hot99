@@ -1,8 +1,5 @@
 /*==========  Mobile First Method  ==========*/
 @media (max-width: 767px) {/* мобильный */
-    .sub-lg-menu{
-        display: none;
-    }
     body{
         min-width: 320px;
     }
@@ -69,11 +66,14 @@
     .opac > ul > li, .telephone{
         display:none;
     }
-}
-@media (min-width: 768px) and (max-width: 992px) {/* средний */
     .sub-lg-menu{
         display: none;
     }
+    .main-punkt{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {/* средний */
     .screen-mobile{
         display: none;
     }
@@ -114,12 +114,6 @@
     .name, .name3{
         display: inline-block;
     }
-    /*.name3{*/
-        /*position: relative;*/
-        /*float: left;*/
-        /*top: 20px;*/
-        /*left: 50px;*/
-    /*}*/
     .telephone2{
         position: absolute;
         right: 5%;
@@ -128,8 +122,18 @@
     .opac > ul > li, .telephone{
         display:none;
     }
-
+    .sub-lg-menu > ul > li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .stlb-main-punkt > button{
+        display: none;
+    }
+    .sub-main-menu{
+        display: none;
+    }
 }
+
 @media (min-width: 992px) {/* большой */
     .screen-mobile{
         display: none;
@@ -146,11 +150,14 @@
     .menu-topline-max li{
         display: none;
     }
+    .sub-main-menu{
+        display: none;
+    }
+    .stlb-main-punkt > button{
+        display: none;
+    }
 }
 @media (min-width: 992px) and (max-width: 1400px){
-    /*.navbar-nav-2 li{*/
-        /*display: none;*/
-    /*}*/
     .menu-topline-max{
         display: none;
     }
@@ -169,6 +176,16 @@
         display:none;
     }
     .sub-lg-menu{
+        /*display: none;*/
+    }
+    .sub-main-menu{
+        display: none;
+    }
+    .sub-lg-menu > ul > li{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .stlb-main-punkt > button{
         display: none;
     }
 }
@@ -204,6 +221,13 @@
     }
     #between-advantages-footer {
         height: 85px;
+    }
+    .sub-lg-menu > ul > li{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .stlb-main-punkt > button{
+        display: none;
     }
 
 }

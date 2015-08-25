@@ -7,22 +7,6 @@ html,body {
 .container-fluid-2{
     margin-bottom: 10px;
 }
-.sub-lg-menu{
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-    text-align: center;
-    margin:0 auto;
-    font-size: 16px;
-    background: #F6EFE9;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.sub-lg-menu > ul > li{
-    display: inline-block;
-    padding: 13px;
-    padding-bottom: 5px;
-}
 .horMenu {
     opacity: 0;
     position: fixed;
@@ -283,20 +267,6 @@ a:hover{
   margin-bottom: 15px;
 }
 
-.horMenu ul{
-    line-height: 75px;
-    margin: 0 auto;
-    display: inline-block;
-    padding-left: 0;
-}
-
-.horMenu ul li{
-    line-height: 25px;
-    list-style-type: none;
-    padding: 13px;
-    display: inline-block;
-}
-
 .content {
     padding: 90px 0 63px;
     background: #E8E6E6;
@@ -311,8 +281,6 @@ a:hover{
 }
 
 .clear{clear: both;}
-
-
 
 .projects h3 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -382,8 +350,6 @@ a.partners:hover{/*ЭФФЕКТ ПАРТНЕРОВ*/
     color: #433836;
 }
 
-
-
 .advantages h2{
     padding: 0 0 50px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -394,11 +360,6 @@ a.partners:hover{/*ЭФФЕКТ ПАРТНЕРОВ*/
   right: 5%;
   top: 0;
 }
-/*.telephone2{*/
-    /*position: absolute;*/
-    /*right: 5%;*/
-    /*top: 0;*/
-/*}*/
 
 .telephone-right{
     margin-right: 10px;
@@ -434,8 +395,6 @@ a.partners:hover{/*ЭФФЕКТ ПАРТНЕРОВ*/
     right: 10px;
 }
 
-
-
 .form input:focus{
     background-color: #5d5452;
     color: #d7d3d2;
@@ -465,7 +424,6 @@ a.more-works{
     width: 50%;
     margin: 20px auto;
 }
-
 a.more:hover {
     -webkit-transition: all 0.25s ease-in-out;
        -moz-transition: all 0.25s ease-in-out;
@@ -475,7 +433,6 @@ a.more:hover {
     background: #58423F;
     color: #fff;
 }
-
 
 .advantage_item{
     display: inline-block;
@@ -489,85 +446,12 @@ a.more:hover {
     margin-top: 50px
 }
 
-
-
 .icon-bar{
     background: #5d5452;
 }
 .hot{
     padding-top: 50px;
 }
-
-/*новое*/
-.navbar-toggle,.navbar-toggle:hover, .navbar-toggle:active .navbar-toggle:focus{
-    top: -46px;
-    position: relative;
-    z-index: 2;
-    left: -120px;
-    background: none;
-    float: none;
-    /*padding-left: 10px;*/
-    outline: none !important;
-    border: none;
-}
-.collapsed, .collapsed:focus, .collapsed:active, .collapsed:hover{
-    outline: none !important;
-    border: none;
-    background: none;
-}
-.name2{
-    display: inline-block;
-}
-.name3{
-    position: absolute;
-    float: left;
-    top: 17px;
-    left: 25px;
-}
-ul.nav.navbar-nav{
-    display: block;
-    box-sizing: border-box;
-    text-decoration: none;
-    height: 90px;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-.navbar-collapse ul li {
-    lifont-family: 'Roboto Condensed', sans-serif;
-    list-style-type: none;
-    font-size: 18px;
-}
-
-
-.nav>li>a:hover{
-    text-decoration: none;
-    background: none;
-}
-.navbar-brand{
-    float: none;
-    font-size: 40px;
-}
-
-.navbar-collapse{
-    background: transparent;
-}
-.navbar-collapse.in{
-    overflow: visible;
-}
-.navbar-header{
-    height: 0;
-}
-.navbar-nav>li>a {
-    padding-top: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    line-height: 20px;
-}
-
-
-
-/*основной контент: фото с описанием*/
 /*основной контент: фото с описанием*/
 .row.row-img-text{/*строка с фото и описанием объекта*/
     background: #f4efe9;
@@ -780,13 +664,9 @@ ul.nav.navbar-nav{
 }
 /*всплывающая полоса вверху*/
 #base{
-    /*margin: 2em;*/
     width: 10em;
     padding: 0% 10% 0% 0%;
     position: absolute;
-    /*top: 50%;*/
-    /*left: 36%;*/
-    /*margin: -125px 0 0 -125px;*/
 }
 .second-fall-menu, .sub-fall-menu{
     border-radius: 0;
@@ -810,20 +690,23 @@ ul.nav.navbar-nav{
     background: #F6EFE9;
 }
 .sub-telephone {
-    position: absolute;
-    right: 5%;
-    top: 34px;
+    position: relative;
+    top: 21px;
+    right: 20px;
+    float: right;
 }
 .sub-logo{
     text-align: center;
+    padding-left: 0;
+    padding-top: 5px;
 }
 .sub-button > .btn{
-    padding-left: 30px;
+    padding-left: 15px;
     padding-top: 20px;
 }
 .sub-fall-menu ul > li{
     padding-right: 45px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     font-size: 18px;
@@ -831,6 +714,10 @@ ul.nav.navbar-nav{
     list-style-type: none;
 }
 /*ВПАДИНА НА КНОПКЕ ПРИ НАЖАТИИ*/
+#dropdownMenu2:active{
+    border-radius: 0px;
+    box-shadow: none;
+}
 .sub-button > .btn:active {
     border-radius: 0px;
     box-shadow: none;
@@ -848,5 +735,29 @@ ul.nav.navbar-nav{
 }
 #between-advantages-footer {
     height: 67px;
+}
+.sub-lg-menu{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    font-size: 16px;
+    background: #F6EFE9;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sub-lg-menu > ul > li{
+    display: inline-block;
+}
+.stlb-main-punkt{
+    padding-top: 13px;
+}
+.main-punkt > ul > li {
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+    padding: 0 30px 0 0;
+    font-size: 19px;
 }
 
