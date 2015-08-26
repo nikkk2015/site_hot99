@@ -21,6 +21,14 @@ head
   link(rel="stylesheet", href="js/helpers/jquery.fancybox-buttons.css?")
   link(rel="stylesheet", href="js/helpers/jquery.fancybox-thumbs.css")
 body
+    .modal.fade(id="ModalReadMoreProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel")
+        .modal-dialog(role="document")
+            .modal-content
+                .modal-header
+                    .modal-title(id="myModalLabel").h4
+                .modal-body(id="name-project")
+                    .modal-title(id="myModalLabel") p(class="jdshf") jhnujhiu
+                .modal-footer
     .horMenu
         .sub-lg-menu: ul.sub
             li: a(href="fireplace.html") КАМИНЫ
@@ -67,7 +75,7 @@ body
                 li: a(href="fireplace.html") КАМИНЫ
                 li: a(href="bath.html") БАНИ
                 li: a(href="chimney.html") ДЫМОХОДЫ
-                li: a(data-scroll,href="#between-advantages-footer ") КОНТАКТЫ
+                li: a(data-scroll,href="#bottomis") КОНТАКТЫ
                 li: a(href="about.html") О НАС
           .col-xs-4
               a.p(href="index.html")(class="logo-3")ЭраТепла
@@ -76,7 +84,7 @@ body
           li: a(href="fireplace.html") КАМИНЫ
           li: a(href="bath.html") БАНИ
           li: a(href="chimney.html") ДЫМОХОДЫ
-          li: a(data-scroll,href="#between-advantages-footer ") КОНТАКТЫ
+          li: a(data-scroll,href="#bottomis") КОНТАКТЫ
           li: a(href="about.html") О НАС
 
 
@@ -89,7 +97,7 @@ body
           .col-md-6.screen-md.col-sm-6
             .textR.descr
                 h3 КАМИНЫ
-                | Камины, выполненные по индивидуальному проекту являются не
+                | Камины, выполненные по индивидуальному проекту, являются не
                 | только хорошим дополнением интерьера, но также служат отличным
                 | источником тепла, у которого так приятно по вечерам собраться всей
                 | семьей.<br>
@@ -99,7 +107,7 @@ body
           .col-xs-12.screen-mobile
             .textR.descr
               h3 КАМИНЫ
-              | Камины, выполненные по индивидуальному проекту являются не
+              | Камины, выполненные по индивидуальному проекту, являются не
               | только хорошим дополнением интерьера, но также служат отличным
               | источником тепла, у которого так приятно по вечерам собраться всей
               | семьей.<br>
@@ -127,21 +135,21 @@ body
           .col-md-6.screen-md.col-sm-6
             .textR.descr
               h3 БАНИ
-              | Мыльня, мыленка, мовница – или же просто баня. Так полюбившаяся нам еще с незапамятных времен. И именно это наша основная целькоторую мы преследуем при монтаже- сохранение традиций содновременным комфортом и современным дизайном.<br>
+              | Мыльня, мыленка, мовница – или же просто баня. Так полюбившаяся нам еще с незапамятных времен. И именно это наша основная цель, которую мы преследуем при монтаже - сохранение традиций с одновременным комфортом и современным дизайном.<br>
               a.more(href="bath.html") ПОДРОБНЕЕ
           .col-xs-12.screen-mobile
             .fotoL: img(src="images/bath.jpg")
           .col-xs-12.screen-mobile
             .textR.descr
               h3 БАНИ
-              | Мыльня, мыленка, мовница – или же просто баня. Так полюбившаяся нам еще с незапамятных времен. И именно это наша основная целькоторую мы преследуем при монтаже- сохранение традиций содновременным комфортом и современным дизайном.<br>
+              | Мыльня, мыленка, мовница – или же просто баня. Так полюбившаяся нам еще с незапамятных времен. И именно это наша основная цель, которую мы преследуем при монтаже - сохранение традиций содновременным комфортом и современным дизайном.<br>
               a.more(href="bath.html") ПОДРОБНЕЕ
       .arrow_boxL
         .row.row-img-text
           .col-md-6.screen-md.col-sm-6
             .textL.descr
               h3 БАРБЕКЮ
-              | Барбекю или мангал будет отличным решением не только для время препровождения дружного коллектива на приготовленных на открытом огне. <br>
+              | Барбекю или мангал будет отличным решением не только для времяпрепровождения дружного коллектива на открытом воздухе, но и для любителей блюд, приготовленных на открытом огне.  <br>
               a.more(href="barbeku.html") ПОДРОБНЕЕ
           .col-md-6.col-img.screen-md.col-sm-6
             .fotoR: img(src="images/4.jpg")
@@ -150,7 +158,7 @@ body
           .col-xs-12.screen-mobile
             .textL.descr
               h3 БАРБЕКЮ
-              | Барбекю или мангал будет отличным решением не только для время препровождения дружного коллектива на приготовленных на открытом огне. <br>
+              | Барбекю или мангал будет отличным решением не только для времяпрепровождения дружного коллектива на открытом воздухе, но и для любителей блюд, приготовленных на открытом огне.  <br>
               a.more(href="barbeku.html") ПОДРОБНЕЕ
     //- .cc.clearfix
     //-   .fotoL: img(src="images/kovka1.jpg")
@@ -191,6 +199,13 @@ body
              моделей, независимо от сложности оборудования.
       .container-fluid
         .fotoPrall
+    .bigF.row
+        .col-xs-4
+        .col-xs-4
+            .block-btn
+              button(type="button" class="btn btn-lg read-more-project" data-toggle="modal" data-target="#ModalReadMoreProject") О ПРОЕКТЕ
+        .col-xs-4
+
 
 
 

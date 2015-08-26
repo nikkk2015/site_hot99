@@ -14,6 +14,12 @@ class ExtendedSlider
 
     $('#text-review').hide().html(@config[@curindex].main).fadeIn()
 
+    $('#myModalLabel').hide().html(@config[@curindex].main).fadeIn()
+
+    $('#name-project').hide().html(@config[@curindex].name).fadeIn()
+
+    $('#description').hide().html(@config[@curindex].text).fadeIn()
+
   addImgs: ->
     $('.fotoPrall').html("").hide()
     for i, index in @config[@curindex].sub_img
@@ -39,11 +45,13 @@ class ExtendedSlider
       do @addText
       false
 
+
 slider = new ExtendedSlider(
   [
     {
       main: "Проект 1"
-      text: "text1"
+      name: "Баня в Талдоме"
+      text: "Объект сдан в 2014 году. Печь Kastor  с дополнительно"
       sub_img: [
         "images/photo2.png"
         "images/photo2.png"

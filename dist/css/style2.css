@@ -3,6 +3,10 @@ html,body {
     min-width: 320px;
     overflow-x: hidden;
 }
+/*дерагние на момент открытия модального окна*/
+body{
+    padding-right: 0 !important;
+}
 /*  ВЕРХНЯЯ ВСПЛЫВАЮЩАЯ ПОЛОСА  */
 .container-fluid-2{
     margin-bottom: 10px;
@@ -757,7 +761,46 @@ a.more:hover {
     display: inline-block;
     font-family: 'Roboto Condensed', sans-serif;
     list-style-type: none;
-    padding: 0 30px 0 0;
+    padding: 0 40px 0 0;
     font-size: 19px;
+}
+.read-more-project:hover{
+    background: #58423F;
+    border: 2px solid #58423F;
+    border-radius: 0;
+    color: #fff;
+    outline:none;
+}
+/*Синяя оконтовка*/
+.read-more-project:active,.read-more-project:focus{
+    outline:none;
+}
+.read-more-project{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    padding: 5px;
+    width: 142px;
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    background: #F6EFE9;
+    border: 2px solid #58423F;
+    outline:none;
+    border-radius: 0;
+    color: #58423F;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+}
+.modal-content {
+    position: relative;
+    background: #E8E6E6;
+    border-radius: 0;
+}
+.modal-open{
+    padding-right: 0;
 }
 
