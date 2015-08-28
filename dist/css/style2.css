@@ -121,8 +121,7 @@ body{
 }
 
 h3.proj-name{
-    font-family: 'Roboto Condensed', sans-serif;
-   font-weight: bold;
+    font-family: Estrangelo Edessa;
    letter-spacing: 2px;
    font-style: normal;
    font-size: 30px;
@@ -424,11 +423,28 @@ a.more {
     border: 2px solid #58423F;
     color: #58423F
 }
+a.read-more {
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    padding: 5px;
+    width: 205px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    background: #F6EFE9;
+    border: 2px solid #58423F;
+    color: #58423F
+}
 a.more-works{
     width: 50%;
     margin: 20px auto;
 }
-a.more:hover {
+.block-btn{
+    padding-left: 75px;
+}
+a.more:hover, a.read-more:hover {
     -webkit-transition: all 0.25s ease-in-out;
        -moz-transition: all 0.25s ease-in-out;
         -ms-transition: all 0.25s ease-in-out;
@@ -803,4 +819,12 @@ a.more:hover {
 .modal-open{
     padding-right: 0;
 }
-
+.more-project{
+    margin-left: 0px;
+}
+.otstup{
+    height: 50px;
+}
+.block-project-title{
+    padding-left: 80px;
+}

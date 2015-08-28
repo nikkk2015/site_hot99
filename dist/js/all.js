@@ -451,7 +451,10 @@ define("../bower_components/almond/almond", function(){});
 
     ExtendedSlider.prototype.addText = function() {
       $('#name_review').hide().html(this.config[this.curindex].main).fadeIn();
-      return $('#text-review').hide().html(this.config[this.curindex].main).fadeIn();
+      $('#text-review').hide().html(this.config[this.curindex].main).fadeIn();
+      $('#myModalLabel').hide().html(this.config[this.curindex].main).fadeIn();
+      $('#name-project').hide().html(this.config[this.curindex].name).fadeIn();
+      return $('#description').hide().html(this.config[this.curindex].text).fadeIn();
     };
 
     ExtendedSlider.prototype.addImgs = function() {
@@ -480,7 +483,7 @@ define("../bower_components/almond/almond", function(){});
           return false;
         };
       })(this));
-      return $('.arrow_small_right').click((function(_this) {
+      $('.arrow_small_right').click((function(_this) {
         return function() {
           _this.slider.goToNextSlide();
           console.log(_this.config.length);
@@ -494,6 +497,11 @@ define("../bower_components/almond/almond", function(){});
           return false;
         };
       })(this));
+      return $('.read-more').click((function(_this) {
+        return function() {
+          return $('[href = my]').attr("href", _this.config[_this.curindex].ink);
+        };
+      })(this));
     };
 
     return ExtendedSlider;
@@ -503,14 +511,17 @@ define("../bower_components/almond/almond", function(){});
   slider = new ExtendedSlider([
     {
       main: "Проект 1",
-      text: "text1",
+      name: "Баня в Талдоме",
+      text: "Объект сдан в 2014 году. Печь Kastor  с дополнительно",
       sub_img: ["images/photo2.png", "images/photo2.png", "images/photo2.png"],
-      full_img: ["proj/bani/img10.jpg", "proj/bani/img10.jpg", "proj/bani/img10.jpg"]
+      full_img: ["proj/bani/img10.jpg", "proj/bani/img10.jpg", "proj/bani/img10.jpg"],
+      ink: "read-projects1.html"
     }, {
       main: "Проект 2",
       text: "text2",
       sub_img: ["images/photo3.png", "images/photo3.png", "images/photo3.png"],
-      full_img: ["proj/chimney/img04.jpg", "proj/chimney/img04.jpg", "proj/chimney/img04.jpg"]
+      full_img: ["proj/chimney/img04.jpg", "proj/chimney/img04.jpg", "proj/chimney/img04.jpg"],
+      ink: "read-projects2.html"
     }, {
       main: "Проект 3",
       text: "text3",

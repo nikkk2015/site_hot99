@@ -21,14 +21,14 @@ head
   link(rel="stylesheet", href="js/helpers/jquery.fancybox-buttons.css?")
   link(rel="stylesheet", href="js/helpers/jquery.fancybox-thumbs.css")
 body
-    .modal.fade(id="ModalReadMoreProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel")
-        .modal-dialog(role="document")
-            .modal-content
-                .modal-header
-                    .modal-title(id="myModalLabel").h4
-                .modal-body(id="name-project")
-                    .modal-title(id="myModalLabel") p(class="jdshf") jhnujhiu
-                .modal-footer
+    //.modal.fade(id="ModalReadMoreProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel")
+    //    .modal-dialog(role="document")
+    //        .modal-content
+    //            .modal-header
+    //                .modal-title(id="myModalLabel").h4
+    //            .modal-body(id="name-project")
+    //                .modal-title(id="myModalLabel") p(class="jdshf") jhnujhiu
+    //            .modal-footer
     .horMenu
         .sub-lg-menu: ul.sub
             li: a(href="fireplace.html") КАМИНЫ
@@ -203,7 +203,8 @@ body
         .col-xs-4
         .col-xs-4
             .block-btn
-              button(type="button" class="btn btn-lg read-more-project" data-toggle="modal" data-target="#ModalReadMoreProject") О ПРОЕКТЕ
+              //button(type="button" class="btn btn-lg read-more-project" data-toggle="modal" data-target="#ModalReadMoreProject")
+              a.read-more(href="my") ПОДРОБНЕЕ О ПРОЕКТАХ
         .col-xs-4
 
 

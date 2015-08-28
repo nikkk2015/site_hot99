@@ -44,6 +44,8 @@ class ExtendedSlider
       do @addImgs
       do @addText
       false
+    $('.read-more').click =>
+     $('[href = my]').attr("href", @config[@curindex].ink)
 
 
 slider = new ExtendedSlider(
@@ -62,6 +64,7 @@ slider = new ExtendedSlider(
         "proj/bani/img10.jpg"
         "proj/bani/img10.jpg"
       ]
+      ink: "read-projects1.html"
     },
     {
       main: "Проект 2"
@@ -76,6 +79,7 @@ slider = new ExtendedSlider(
         "proj/chimney/img04.jpg"
         "proj/chimney/img04.jpg"
       ]
+      ink: "read-projects2.html"
     },
     {
       main: "Проект 3"
